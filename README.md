@@ -45,9 +45,8 @@ For example, if you want to test ViT-based CLIP-ReID for MSMT17
 
 CUDA_VISIBLE_DEVICES=0 python test_clipreid.py --config_file configs/person/vit_clipreid.yml TEST.WEIGHT 'your_trained_checkpoints_path/ViT-B-16_60.pth'
 Acknowledgement
-Codebase from TransReID, CLIP, and CoOp.
+Codebase from TransReID, CLIP, and Coop.
 
 
 Trained models and test logs
 Datasets	MSMT17	Market	Duke	Occ-Duke	VeRi	VehicleID
-Note that all results listed above are without re-ranking.
